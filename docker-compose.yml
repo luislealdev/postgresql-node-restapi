@@ -4,8 +4,8 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_USER: fazt
-      POSTGRES_PASSWORD: faztpassword
-      POSTGRES_DB: nodepg
+      POSTGRES_USER: leal
+      POSTGRES_PASSWORD: lealpassword
+      POSTGRES_DB: api-node-fazt-tutorial
     ports:
       - 5432:5432
