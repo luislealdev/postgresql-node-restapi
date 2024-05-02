@@ -6,6 +6,6 @@ services:
     environment:
       POSTGRES_USER: leal
       POSTGRES_PASSWORD: lealpassword
-      POSTGRES_DB: api-node-fazt-tutorial
+      POSTGRES_DB: api_node_fazt_tutorial
     ports:
       - 5432:5432
